@@ -47,10 +47,6 @@ module.exports = function(env, { analyze }) {
         { test: /\.ts$/i, use: ['ts-loader', '@aurelia/webpack-loader'], exclude: /node_modules/ },
         { test: /[/\\]app[/\\].+\.html$/i, use: '@aurelia/webpack-loader', exclude: /node_modules/ }
       ]
-    },
-    plugins: [
-      new HtmlWebpackPlugin({ template: 'index.html' }),
-      analyze && new BundleAnalyzerPlugin()
-    ].filter(p => p)
+    }
   }
 }

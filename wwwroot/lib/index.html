@@ -1,15 +1,59 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <title>Aurelia</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <base href="/">
-<script defer src="entry.bundle.js"></script></head>
-
-<body>
-  <my-app></my-app>
-</body>
-
-</html>
+<head><script defer src="entry.bundle.js"></script></head>Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module not found: Error: Can't resolve '/Users/akshay/Dev/dotnet/Sandbox/index.html' in '/Users/akshay/Dev/dotnet/Sandbox'
+  ModuleNotFoundError: Module not found: Error: Can't resolve '/Users/akshay/Dev/dotnet/Sandbox/index.html' in '/Users/akshay/Dev/dotnet/Sandbox'
+  
+  - Compilation.js:1668 
+    [Sandbox]/[webpack]/lib/Compilation.js:1668:28
+  
+  - NormalModuleFactory.js:712 
+    [Sandbox]/[webpack]/lib/NormalModuleFactory.js:712:13
+  
+  
+  - NormalModuleFactory.js:273 
+    [Sandbox]/[webpack]/lib/NormalModuleFactory.js:273:22
+  
+  
+  - NormalModuleFactory.js:402 
+    [Sandbox]/[webpack]/lib/NormalModuleFactory.js:402:22
+  
+  - NormalModuleFactory.js:121 
+    [Sandbox]/[webpack]/lib/NormalModuleFactory.js:121:11
+  
+  - NormalModuleFactory.js:628 
+    [Sandbox]/[webpack]/lib/NormalModuleFactory.js:628:24
+  
+  - NormalModuleFactory.js:782 
+    [Sandbox]/[webpack]/lib/NormalModuleFactory.js:782:8
+  
+  - NormalModuleFactory.js:902 
+    [Sandbox]/[webpack]/lib/NormalModuleFactory.js:902:5
+  
+  - child-compiler.js:169 
+    [Sandbox]/[html-webpack-plugin]/lib/child-compiler.js:169:18
+  
+  - Compiler.js:534 
+    [Sandbox]/[webpack]/lib/Compiler.js:534:11
+  
+  - Compiler.js:1087 
+    [Sandbox]/[webpack]/lib/Compiler.js:1087:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [Sandbox]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1083 
+    [Sandbox]/[webpack]/lib/Compiler.js:1083:33
+  
+  - Compilation.js:2424 
+    [Sandbox]/[webpack]/lib/Compilation.js:2424:11
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [Sandbox]/[tapable]/lib/Hook.js:18:14
+  
+  - Compilation.js:2417 
+    [Sandbox]/[webpack]/lib/Compilation.js:2417:38
+  
+</pre>
