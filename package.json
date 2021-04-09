@@ -40,7 +40,7 @@
   },
   "scripts": {
     "start": "rimraf wwwroot/lib && npx webpack",
-	"watch": "rimraf wwwroot/lib && npx webpack -w",
+    "watch": "rimraf wwwroot/lib && npx webpack -w",
     "build": "rimraf wwwroot/lib && npx webpack --env production",
     "analyze": "rimraf wwwroot/lib && webpack --env production --analyze"
   }

@@ -401,3 +401,5 @@ node_modules
 /coverage
 .vscode/tasks.json
 .vscode/launch.json
+
+wwwroot/lib
