@@ -1,6 +1,6 @@
 # Aurelia + TypeScript + ASP.NET
 
-## Getting Started
+### Getting Started
 
 1. Clone the Sandbox application.
 
