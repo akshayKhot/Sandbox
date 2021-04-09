@@ -1,4 +1,4 @@
-# Aurelia + TypeScript + ASP.NET
+# ASP.NET + Aurelia + TypeScript + Webpack
 
 ### Getting Started
 
@@ -29,18 +29,18 @@
         $ npm run build
 
 
-## What's Aurelia?
+### What's Aurelia?
 
 [Aurelia](https://aurelia.io/) is an open-source, opinionated, JavaScript framework. It is designed to enable you to easily build powerful web, mobile, or desktop applications. Aurelia uses open web standards. Its no-nonsense, get-out-of-your-way conventions allow you to quickly build powerful applications. [Read](https://docs.aurelia.io/) the documentation to learn more about Aurelia. 
 
-## What's ASP.NET?
+### What's ASP.NET?
 
 [ASP.NET](https://dotnet.microsoft.com/apps/aspnet) is a free, cross-platform, and open-source framework that lets you build web apps and services with .NET and C#.
 
-## What's TypeScript?
+### What's TypeScript?
 
 [Typescript](https://www.typescriptlang.org/) is an open-source programming language developed by Anders Hejlsberg at Microsoft. It acts as a superset of JavaScript and adds typing support to the language. It also provides extensive tooling for the JavaScript ecosystem. 
 
-## What's Sandbox?
+### What's Sandbox?
 
 Setting up an ASP.NET project that uses Aurelia, along with TypeScript can be a hassle. There's just not enough information online. This project tries to combine these three powerful technologies in a single project that you can set up within two minutes. 
