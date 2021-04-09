@@ -2,7 +2,7 @@
 
 ## What's Aurelia?
 
-[Aurelia](https://aurelia.io/) is an open-source, JavaScript, front-end platform, designed to enable you to easily build even the most demanding web, mobile, or desktop applications. Aurelia stands out for its commitment to open web standards and its no-nonsense, get-out-of-your-way conventions that enable vanilla JavaScript development. Of course, Aurelia is also packed full of features, performs at the highest standards, extensible to its core, and supports a fully-testable component-oriented design. [Read](https://docs.aurelia.io/) the documentation to learn more about Aurelia. 
+[Aurelia](https://aurelia.io/) is an open-source, opinionated, JavaScript framework. It is designed to enable you to easily build powerful web, mobile, or desktop applications. Aurelia uses open web standards. Its no-nonsense, get-out-of-your-way conventions allow you to quickly build powerful applications. [Read](https://docs.aurelia.io/) the documentation to learn more about Aurelia. 
 
 ## What's ASP.NET?
 
