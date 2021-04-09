@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-1. Clone the Sandbox at the command prompt if you haven't yet:
+1. Clone the Sandbox application.
 
         $ git clone https://github.com/akshayKhot/Sandbox.git
 
@@ -19,7 +19,14 @@
 
         $ dotnet run
 
-5. Go to `https://localhost:5001`
+5. Go to `https://localhost:5001`.
+6. To watch for changes in the TypeScript files, run the app in watch mode. 
+  
+        $ npm run watch
+        
+7. To build the front-end for production, which reduces the bundle size from 3.3 MB to 300 KB, build the app.
+
+        $ npm run build
 
 
 ## What's Aurelia?
