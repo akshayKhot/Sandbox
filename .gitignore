@@ -402,4 +402,4 @@ node_modules
 .vscode/tasks.json
 .vscode/launch.json
 
-wwwroot/lib
+wwwroot/lib/entry.*.js
