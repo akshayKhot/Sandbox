@@ -399,3 +399,5 @@ node_modules
 /dist
 /.nyc_output
 /coverage
+.vscode/tasks.json
+.vscode/launch.json

@@ -1,12 +1,12 @@
 {
-  "name": "app",
-  "description": "An Aurelia 2 client application.",
+  "name": "sandbox",
+  "description": "An Aurelia + TypeScript app, powered by ASP.NET.",
   "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "???"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "aurelia": "latest"
   },
@@ -39,24 +39,9 @@
     "webpack-dev-server": "^3.11.2"
   },
   "scripts": {
-    "lint:js": "eslint src test --ext .js,.ts",
-    "lint:html": "htmlhint -c .htmlhintrc src",
-    "lint": "npm run lint:js && npm run lint:html",
-    "pretest": "npm run lint",
-    "start": "webpack serve",
-    "build": "rimraf dist && webpack --env production",
-    "analyze": "rimraf dist && webpack --env production --analyze",
-    "test": "jest"
-  },
-  "jest": {
-    "transform": {
-      "\\.(css|less|sass|scss|styl|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "jest-transform-stub",
-      "\\.(ts|html)$": "@aurelia/ts-jest"
-    },
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "src/**/*.ts",
-      "!src/**/*.d.ts"
-    ]
+    "start": "rimraf wwwroot/lib && npx webpack",
+	"watch": "rimraf wwwroot/lib && npx webpack -w",
+    "build": "rimraf wwwroot/lib && npx webpack --env production",
+    "analyze": "rimraf wwwroot/lib && webpack --env production --analyze"
   }
 }
