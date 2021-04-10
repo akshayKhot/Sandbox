@@ -43,4 +43,4 @@
 
 ### What's Sandbox?
 
-Setting up an ASP.NET project that uses Aurelia, along with TypeScript can be a hassle. There's just not enough information online. This project tries to combine these three powerful technologies in a single project that you can set up within two minutes. 
+Setting up an ASP.NET project that uses Aurelia, along with TypeScript can be a hassle. There's just not enough information online. This project tries to combine these three powerful technologies in a single project that you can set up within two minutes. For more details, check out my [blog post](https://akshaykhot.com/how-to-setup-aurelia-typescript-with-aspnet/).
