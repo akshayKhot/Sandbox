@@ -5,7 +5,6 @@ const {BundleAnalyzerPlugin} = require('webpack-bundle-analyzer');
 
 const cssLoader = 'css-loader';
 
-
 const postcssLoader = {
   loader: 'postcss-loader',
   options: {
@@ -13,6 +12,15 @@ const postcssLoader = {
       plugins: ['autoprefixer']
     }
   }
+};
+
+const sassLoader = {
+	loader: 'sass-loader',
+	options: {
+		sassOptions: {
+			includePaths: ['node_modules']
+		}
+	}
 };
 
 module.exports = function(env, { analyze }) {
@@ -43,7 +51,7 @@ module.exports = function(env, { analyze }) {
         { test: /\.woff2(\?v=[0-9]\.[0-9]\.[0-9])?$/i, loader: 'url-loader', options: { limit: 10000, mimetype: 'application/font-woff2' } },
         { test: /\.woff(\?v=[0-9]\.[0-9]\.[0-9])?$/i, loader: 'url-loader', options: { limit: 10000, mimetype: 'application/font-woff' } },
         { test: /\.(ttf|eot|svg|otf)(\?v=[0-9]\.[0-9]\.[0-9])?$/i, loader: 'file-loader' },
-        { test: /\.css$/i, use: [ 'style-loader', cssLoader, postcssLoader ] },
+        { test: /\.scss$/i, use: [ 'style-loader', cssLoader, postcssLoader, sassLoader ] },
         { test: /\.ts$/i, use: ['ts-loader', '@aurelia/webpack-loader'], exclude: /node_modules/ },
         { test: /[/\\]app[/\\].+\.html$/i, use: '@aurelia/webpack-loader', exclude: /node_modules/ }
       ]
